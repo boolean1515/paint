@@ -1,0 +1,146 @@
+﻿#canvas
+{
+    border: 2px double black;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 100px;
+    left: 200px;
+    cursor: crosshair;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+body
+{
+    background: grey;
+}
+
+#tools1
+{
+    width: 100px;
+    height: 500px;
+    border: 2px double black;
+    background: #eee9e9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#tools2
+{
+    border: 2px double black;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 100px;
+    left: 870px;
+    background: #eee9e9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#tools3
+{
+    border: 2px double black;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 255px;
+    left: 890px;
+    background: #eee9e9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#tools4
+{
+    border: 2px double black;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 410px;
+    left: 910px;
+    background: #eee9e9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+#centerLayer
+{
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина слоя в пикселах */
+    height: 150px; /* Высота слоя в пикселах */
+    left: 50%; /* Положение слоя от левого края */
+    top: 50%; /* Положение слоя от верхнего края */
+    margin-left: -150px; /* Отступ слева */
+    margin-top: -100px; /* Отступ сверху */
+    background: #ffffff;
+    border: solid 1px black; /* Параметры рамки вокруг */
+    padding: 10px; /* Поля вокруг текста */
+    overflow: auto; /* Добавление полосы прокрутки */
+}
+
+#TB_overlay
+{
+    background-color: #000; /* Чёрный фон */
+    height: 100%; /* Высота максимальна */
+    left: 0; /* Нулевой отступ слева */
+    opacity: 0.70; /* Степень прозрачности */
+    position: fixed; /* Фиксированное положение */
+    top: 0; /* Нулевой отступ сверху */
+    width: 100%; /* Ширина максимальна */
+}
+
+#size
+{
+    background-color: #000; /* Чёрный фон */
+    height: 100%; /* Высота максимальна */
+    left: 0; /* Нулевой отступ слева */
+    opacity: 0.70; /* Степень прозрачности */
+    position: fixed; /* Фиксированное положение */
+    top: 0; /* Нулевой отступ сверху */
+    width: 100%; /* Ширина максимальна */
+}
+
+#newDoc
+{
+    position: absolute;
+    top: 10px;
+    width: 295px;
+    height: 40px;
+    border: solid 1px black;
+    text-align: center;
+    vertical-align: central;
+}
+
+    #newDoc:hover
+    {
+        top: 10px;
+        position: absolute;
+        width: 295px;
+        height: 40px;
+        border: solid 1px black;
+        text-align: center;
+        background: grey;
+        vertical-align: central;
+    }
+
+#loadDoc
+{
+    top: 60px;
+    position: absolute;
+    width: 295px;
+    height: 40px;
+    border: solid 1px black;
+    text-align: center;
+    vertical-align: central;
+}
+
+    #loadDoc:hover
+    {
+        top: 60px;
+        position: absolute;
+        width: 295px;
+        height: 40px;
+        border: solid 1px black;
+        text-align: center;
+        background: grey;
+        vertical-align: central;
+    }
